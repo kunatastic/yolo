@@ -1,0 +1,21 @@
+{
+    "name": "yolo",
+    "displayName": "YOLO",
+    "description": "The lame and silly theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "yolo",
+                "uiTheme": "vs-dark",
+                "path": "./themes/yolo-color-theme.json"
+            }
+        ]
+    }
+}
